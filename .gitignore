@@ -1,0 +1,7 @@
+digest.html
+digest.txt
+*.env
+.env*
+reader.log
+__pycache__/
+*.pyc
