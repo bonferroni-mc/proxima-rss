@@ -1,6 +1,6 @@
 # proxima-rss
 
-A daily biotech and science news digest. Fetches stories from 17 RSS feeds and preprint APIs, filters by keyword relevance, scores each story 1–99, and outputs a clean HTML digest.
+A daily tecbio, biotech, and science news digest. Fetches stories from 17 RSS feeds and preprint APIs, filters by keyword relevance, scores each story 1–99, and outputs a clean HTML digest.
 
 ## What it does
 
