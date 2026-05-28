@@ -9,7 +9,7 @@ A daily techbio, biotech, and science news digest. Fetches stories from 17 RSS f
 - Filters stories by a configurable keyword list (proximity biology, PROTAC, AI drug discovery, specific companies, etc.)
 - Scores each story 1–99 based on keyword tier: highest-priority terms (molecular glue, PROTAC, XL-MS, named companies) score highest
 - Outputs `~/digest.html` — stories grouped by date, sorted by score, with colored relevance badges
-- Runs automatically at 7am daily via launchd
+- Runs automatically at 9:30am daily via launchd
 
 ## Setup
 
@@ -58,7 +58,7 @@ Both the keyword list and scoring tiers live at the top of `reader.py`:
 
 ## Scheduling
 
-A launchd job runs `reader.py` every morning at 7am and writes a fresh `~/digest.html`. Unlike cron, launchd will run the job after wake if the Mac was asleep at 7am.
+A launchd job runs `reader.py` every morning at 9:30am and writes a fresh `~/digest.html`. Unlike cron, launchd will run the job after wake if the Mac was asleep at 9:30am.
 
 ```bash
 # check the job is registered
